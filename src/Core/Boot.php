@@ -8,5 +8,6 @@ class Boot
 {
     public function __construct(BlockManyAccessSecurity $blockManyAccessSecurity)
     {
+        //
     }
 }

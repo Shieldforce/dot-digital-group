@@ -14,28 +14,28 @@ class Mysql implements TypeDatabaseInterface
     {
     }
 
-    public static function connect()
+    public function connect() : TypeDatabaseInterface
     {
         //
     }
 
-    public static function create()
+    public function create(...$data) : TypeDatabaseInterface
     {
-        // TODO: Implement create() method.
+        //
     }
 
-    public static function update()
+    public function update(...$data) : TypeDatabaseInterface
     {
-        // TODO: Implement update() method.
+        //
     }
 
-    public static function delete()
+    public function delete(...$data) : TypeDatabaseInterface
     {
-        // TODO: Implement delete() method.
+        //
     }
 
-    public static function read()
+    public function read(...$data)
     {
-        // TODO: Implement read() method.
+        //
     }
 }
