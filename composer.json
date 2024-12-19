@@ -1,0 +1,19 @@
+{
+    "name": "shieldforce/padroes",
+    "description": "Projeto para amostragem",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alexandre Ferreira",
+            "email": "shieldforce2@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
