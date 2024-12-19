@@ -2,10 +2,11 @@
 
 namespace Src\Core;
 
+use Src\Core\Security\BlockManyAccessSecurity;
+
 class Boot
 {
-    public function __construct()
+    public function __construct(BlockManyAccessSecurity $blockManyAccessSecurity)
     {
-        var_dump(__DIR__);
     }
 }
